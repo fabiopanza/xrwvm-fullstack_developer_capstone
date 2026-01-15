@@ -115,6 +115,8 @@ img{
   margin: .5cm;
 }
 
+
+
 .img_icon {
   align-self: center;
     width:40px;
@@ -123,4 +125,35 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.img-contact{
+    width: 50%;
+    max-height: 300px;
+    position: relative;
+    margin-top: 30px;
+    border: 10px solid darkturquoise;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-top: 2px solid black;
+}
+
+.icon8{
+    width: 150px;
+    height: 150px;
+}
+
+.list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+    padding-left: 50px;
 }
